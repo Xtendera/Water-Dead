@@ -2,11 +2,18 @@ using UnityEngine;
 
 public class Json2Questions : MonoBehaviour
 {
-    public TextAsset questionsFile;
+    public TextAsset importantQuestionsFile;
+    public TextAsset extraQuestionsFile;
 
-    public Questions GetQuestions()
+    public Questions GetImportantQuestions()
     {
-        Questions questions = JsonUtility.FromJson<Questions>(questionsFile.text);
+        Questions questions = JsonUtility.FromJson<Questions>(importantQuestionsFile.text);
+        return questions;
+    }
+    
+    public Questions GetImportantQuestions()
+    {
+        Questions questions = JsonUtility.FromJson<Questions>(extraQuestionsFile.text);
         return questions;
     }
 }
