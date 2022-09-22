@@ -14,7 +14,7 @@ public class QuestionManager : MonoBehaviour
     public TMP_Text answer4;
     public void InitQuestion()
     {
-        Questions questions = json2Questions.GetQuestions();
+        Questions questions = json2Questions.GetImportantQuestions();
         if (gameInfo.answeredQuestions == null)
         {
             gameInfo.answeredQuestions = new int[questions.questions.Length];
