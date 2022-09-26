@@ -12,6 +12,7 @@ public class PlayButton : MonoBehaviour
     public TMP_InputField input3;
     public TMP_InputField input4;
     public GameObject errorText;
+    public TurnManager turnManager;
 
     public void OnClick()
     {
@@ -78,10 +79,12 @@ public class PlayButton : MonoBehaviour
 
         qManager.InitQuestion();
 
+
         gameInfo.player1Name = input1.text;
         gameInfo.player2Name = input2.text;
         gameInfo.player3Name = input3.text;
         gameInfo.player4Name = input4.text;
+
 
         fader.Fade();
         fader.callback = FadeCB;
@@ -90,6 +93,7 @@ public class PlayButton : MonoBehaviour
     {
         // Temp. go to questions page
         answersPage.SetActive(true);
+        turnManager.UpdateTurn();
         startPage.SetActive(false);
         fader.Fade();
     }

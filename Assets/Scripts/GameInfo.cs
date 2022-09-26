@@ -9,5 +9,11 @@ public class GameInfo : MonoBehaviour
     public string player3Name;
     public string player4Name;
 
-    public int[] answeredQuestions;
+    public bool isOnExtra = false;
+    public int[] importantAnsweredQuestions;
+    public int[] extraAnsweredQuestions;
+    public int turnIndex = 0;
+
+    public string correctAnswer;
+
 }

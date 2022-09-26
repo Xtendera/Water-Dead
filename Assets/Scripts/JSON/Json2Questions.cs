@@ -11,7 +11,7 @@ public class Json2Questions : MonoBehaviour
         return questions;
     }
     
-    public Questions GetImportantQuestions()
+    public Questions GetExtraQuestions()
     {
         Questions questions = JsonUtility.FromJson<Questions>(extraQuestionsFile.text);
         return questions;
