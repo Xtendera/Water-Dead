@@ -20,17 +20,19 @@ public class QuestionManager : MonoBehaviour
     public void InitQuestion()
     {
 
-        if (gameInfo.importantAnsweredQuestions == null)
+        answer3Parent.SetActive(true);
+        answer4Parent.SetActive(true);
+
+        if (gameInfo.importantAnsweredQuestions.Length == 0)
         {
-            gameInfo.importantAnsweredQuestions = Enumerable.Repeat(-1, json2Questions.GetExtraQuestions().questions.Length).ToArray();
+            gameInfo.importantAnsweredQuestions = Enumerable.Repeat(-1, json2Questions.GetImportantQuestions().questions.Length).ToArray();
         }
-        if (gameInfo.extraAnsweredQuestions == null)
+        if (gameInfo.extraAnsweredQuestions.Length == 0)
         {
-            gameInfo.importantAnsweredQuestions = Enumerable.Repeat(-1, json2Questions.GetExtraQuestions().questions.Length).ToArray();
+            gameInfo.extraAnsweredQuestions = Enumerable.Repeat(-1, json2Questions.GetExtraQuestions().questions.Length).ToArray();
         }
 
         Questions questions = null;
-
 
         if (!gameInfo.isOnExtra)
         {
@@ -51,6 +53,9 @@ public class QuestionManager : MonoBehaviour
                 questions = json2Questions.GetImportantQuestions();
             }
 
+        } else
+        {
+            questions = json2Questions.GetExtraQuestions();
         }
 
 
@@ -65,6 +70,15 @@ public class QuestionManager : MonoBehaviour
                 {
                     isComplete = true;
                     randomQuestion = questions.questions[randomQuestionIndex];
+                    int i = 0;
+                    while (i < gameInfo.importantAnsweredQuestions.Length)
+                    {
+                        if (gameInfo.importantAnsweredQuestions[0] == -1)
+                        {
+                            gameInfo.importantAnsweredQuestions[i] = randomQuestionIndex;
+                            break;
+                        }
+                    }
                 }
             }
             if (gameInfo.isOnExtra)
@@ -73,6 +87,16 @@ public class QuestionManager : MonoBehaviour
                 {
                     isComplete = true;
                     randomQuestion = questions.questions[randomQuestionIndex];
+                    int i = 0;
+                    while (i < gameInfo.extraAnsweredQuestions.Length)
+                    {
+                        if (gameInfo.extraAnsweredQuestions[0] == -1)
+                        {
+                            gameInfo.extraAnsweredQuestions[i] = randomQuestionIndex;
+                            break;
+                        }
+                    }
+
                 }
             }
         }

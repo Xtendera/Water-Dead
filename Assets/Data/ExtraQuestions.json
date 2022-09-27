@@ -13,7 +13,7 @@
             "answers": ["Yes", "No"]
         },
         {
-            "question": "Nothing is happening to protect the watershed"
+            "question": "Nothing is happening to protect the watershed",
             "answers": ["False", "True"]
         }
     ]

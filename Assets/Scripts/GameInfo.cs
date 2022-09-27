@@ -5,9 +5,13 @@ using UnityEngine;
 public class GameInfo : MonoBehaviour
 {
     public string player1Name;
+    public float player1Change;
     public string player2Name;
+    public float player2Change;
     public string player3Name;
+    public float player3Change;
     public string player4Name;
+    public float player4Change;
 
     public bool isOnExtra = false;
     public int[] importantAnsweredQuestions;
