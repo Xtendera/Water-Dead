@@ -1,8 +1,25 @@
 {
     "questions": [
         {
-            "question": "Importante",
-            "answers": ["Uncommon", "Common"]
+            "question": "What is a Watershed?",
+            "answers": ["When the water drains into one stream, lake, or river and affects the water quality in the water.", "The same time that dogs start shedding is when water sheds algae.", "A building filled with water.", "None of the above."]
+
+        },
+        {
+            "question": "How does ground and surface water flow through a watershed?",
+            "answers": ["Groundwater flows from the watershed into a stream which flows to the ocean.", "The watershed releases the water into a lake", "Rocks start to break layers of the mountain causing water to go through", "Waste stops everything from flowing into the stream"]
+        },
+        {
+            "question": "How do erosion, deposition, and weathering affect a watershed",
+            "answers": ["Excessive sedimentation and deposition can negatively affect watershed clarity, flow pathways, and more", "It stops water from flowing through them", "It stops Pollution from happening", "It causes sand dunes to form in the watershed"]
+        },
+        {
+            "question": "How do humans affect watersheds?",
+            "answers": ["Building dams and rerouting rivers cause impacts on watersheds", "The pollution causes water to turn orange", "People don't like watersheds", "Dams block off the animals"]
+        },
+        {
+            "question": "What is an aquifer?",
+            "answers": ["An underground layer of water-bearing permeable rock, rock fractures, or unconsolidated materials.", "When a lake is over polluted", "A stream that is found on top of a mountain.", "A Rock getting broken down chemically"]
         }
     ]
 }

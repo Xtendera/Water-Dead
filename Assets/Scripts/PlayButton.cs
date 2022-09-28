@@ -77,14 +77,41 @@ public class PlayButton : MonoBehaviour
 
         QuestionManager qManager = answersPage.GetComponent<QuestionManager>();
 
-        qManager.InitQuestion();
+       qManager.InitQuestion();
 
+        gameInfo.playerNames = new string[playerCount];
+        gameInfo.playerCharacters = new int[playerCount];
+        gameInfo.playerCharactersChange = new float[playerCount];
+        int tmpIndex = -1;
 
-        gameInfo.player1Name = input1.text;
-        gameInfo.player2Name = input2.text;
-        gameInfo.player3Name = input3.text;
-        gameInfo.player4Name = input4.text;
-
+        if (input1.text != string.Empty)
+        {
+            tmpIndex++;
+            gameInfo.playerNames[tmpIndex] = input1.text;
+            gameInfo.playerCharacters[tmpIndex] = 1;
+            gameInfo.playerCharactersChange[tmpIndex] = 0;
+        }
+        if (input2.text != string.Empty)
+        {
+            tmpIndex++;
+            gameInfo.playerNames[tmpIndex] = input2.text;
+            gameInfo.playerCharacters[tmpIndex] = 2;
+            gameInfo.playerCharactersChange[tmpIndex] = 0;
+        }
+        if (input3.text != string.Empty)
+        {
+            tmpIndex++;
+            gameInfo.playerNames[tmpIndex] = input3.text;
+            gameInfo.playerCharacters[tmpIndex] = 3;
+            gameInfo.playerCharactersChange[tmpIndex] = 0;
+        }
+        if (input4.text != string.Empty)
+        {
+            tmpIndex++;
+            gameInfo.playerNames[tmpIndex] = input4.text;
+            gameInfo.playerCharacters[tmpIndex] = 4;
+            gameInfo.playerCharactersChange[tmpIndex] = 0;
+        }
 
         fader.Fade();
         fader.callback = FadeCB;

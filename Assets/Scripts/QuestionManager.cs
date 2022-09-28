@@ -73,10 +73,13 @@ public class QuestionManager : MonoBehaviour
                     int i = 0;
                     while (i < gameInfo.importantAnsweredQuestions.Length)
                     {
-                        if (gameInfo.importantAnsweredQuestions[0] == -1)
+                        if (gameInfo.importantAnsweredQuestions[i] == -1)
                         {
                             gameInfo.importantAnsweredQuestions[i] = randomQuestionIndex;
                             break;
+                        } else
+                        {
+                            i++;
                         }
                     }
                 }
@@ -90,10 +93,13 @@ public class QuestionManager : MonoBehaviour
                     int i = 0;
                     while (i < gameInfo.extraAnsweredQuestions.Length)
                     {
-                        if (gameInfo.extraAnsweredQuestions[0] == -1)
+                        if (gameInfo.extraAnsweredQuestions[i] == -1)
                         {
                             gameInfo.extraAnsweredQuestions[i] = randomQuestionIndex;
                             break;
+                        } else
+                        {
+                            i++;
                         }
                     }
 

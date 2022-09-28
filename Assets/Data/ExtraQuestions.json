@@ -1,20 +1,131 @@
 {
-    "questions": [
-        {
-            "question": "How common are healthy watersheds?",
-            "answers": ["Uncommon", "Common"]
-        },
-        {
-            "question": "What is a Healthy Watershed?",
-            "answers": ["all of the above", "A healthy watershed is one in which natural land cover supports: dynamic hydrologic and geomorphologic processes within their natural range of variation", "A healthy watershed is one in which natural land cover supports a habitat of sufficient size and connectivity to support native aquatic and riparian species", "A healthy watershed is one in which natural land cover supports: physical and chemical water quality conditions able to support healthy biological communities"]
-        },
-        {
-            "question": "Do Watersheds Need to Be Protected?",
-            "answers": ["Yes", "No"]
-        },
-        {
-            "question": "Nothing is happening to protect the watershed",
-            "answers": ["False", "True"]
-        }
-    ]
-}
+    "questions":[
+ {
+ "question": "9. How does deposition affect the environment?",
+ "answers": ["A.Creates alluvial fans", "B.causes weathering in rock", "C. melts glaciers", "D. makes sand dunes"]
+ },
+ {
+ "question":"10. What does erosion cause",
+ "answers":["A.Mountains to fall", "B.Lava to become cold", "C.Fish to die", "D.Wind to stop"]
+ },
+ {
+ "question":"Weathering gradually destroys things",
+ "answers":["True", "False"]
+ },
+ {
+ "question":"12: how does ice wedging work",
+ "answers":["A.ice freezes in rock and breaks it", "B.dirt freezes in a glacier and breaks it", "C.ice chunks flow down a river and get caught in a crevasse", "D.water freezes in a watershed"]
+ },
+  
+ {
+ "question":"13. What is a deposition",
+ "answers":["a.Sediments settle in a new location", "b.Ice Glaciers carving the earth", "c.The breaking down of rocks", "d.When rocks pay taxes"]
+ },
+ {
+ "question":"14. Why is having a house on a mountain dangerous",
+ "answers":["a.The view can bleach your eyes", "b.Sand makes the house unstable", "c.Weathering makes the mountain  weather away", "d.Coffee makes the house energetic"]
+ },
+ {
+ "question":"15. Why does a  lack of vegetation result in more runoff",
+ "answers":["a.The roots hold in the runoff", "b.The vegetation makes impenetrable rock", "c.The vegetation soil absorbs the water", "d.Because the vegetation told the runoff to stop"]
+ },
+ {
+ "question":"16. Mudslides and landslides are an example of _____.",
+ "answers":["a.Hikers making rock fall", "b.Mountains turning", "c.Types of herpes", "d.None of the above"]
+ },
+ {
+ "question":"17. How does a tsunami affect the environment?",
+ "answers":["a.Causes mass flooding", "b.Causes earthquakes", "c.raises taxes", "d.makes new islands"]
+ },
+ {
+ "question":"18. Erosion breaks rocks",
+ "answers":["True", "False"]
+ },
+ {
+ "question":"19. Why is deposition important",
+ "answers":["a.It kills bacteria", "b.It makes people cautious", "c.It helps build aquatic ecosystems", "d.If we did not have deposition we would not have rocks"]
+ },
+ {
+ "question":"20. Deposition does not occur on other planets",
+ "answers":["True", "False"]
+ },
+ {
+ "question":"Can animals weather away things?",
+ "answers":["A.yes", "B.no"]
+ },
+ {
+ "question":"22. can plants weather away things",
+ "answers":["A.Yes", "B.no"]
+  },
+ {
+ "question":"23. Erosion Makes sediment go from one place to another",
+ "answers":["True", "False"]
+ },
+ {
+ "question":"24. Glaciers can cause erosion",
+ "answers":["True", "false"]  
+ },
+ {
+ "question":"25. weathering is bad for the environment",
+ "answers":["Yes", "No", "Most of the time"]
+ },
+ {
+ "question":"26. Weathering does not effects rocks underwater",
+ "answers":["True", "False"]
+ },
+ {
+ "question":"27. All Materials are affected by weathering the same",
+ "answers":["True", "False"]
+ },
+ {
+ "question":"28. What material is most resistant to weathering",
+ "answers":["a.Iron", "b.Quartz", "c.Gold", "d.Diamond"]
+ },
+ {
+ "question":"29. How are caves formed?",
+ "answers":["a.Though weathering erosion and deposition", "b.Ice wedging", "c.Tsunamis", "d.earthquakes"]
+ },
+ {
+ "question":"30. Which of the following statements is true",
+ "answers":["a.Erosion moves sediments around", "b.deposition moves sediment around", "c.weathering moves sediment around", "d.compaction moves sediment around"]
+ },  
+ {
+ "question":"31. what is weathering",
+ "answers":["A.breaking down rocks and minerals",
+ "B.when sediments move", "C.when sediment gets deposited"]
+ },
+ {
+ "question":"32. The process by which water, ice, wind, or gravity moves weathered rock and soil from one place to another.",
+ "answers":["A.erosion", "B.depostion", "C.weathering"]
+ },
+ {
+ "question":"33. This type of weathering occurs when rock is physically broken down into smaller pieces of rock.",
+ "answers":["A.mechanical weathering", "B.physical weathering", "C.chemical weathering"]
+ },
+ {
+ "question":"34. This type of weathering occurs when rocks weaken and then break down due to chemical changes in the composition of the rock",
+ "answers":["A.chemical weathering", "B.mechanical weathering", "C.erosion weathering"]
+ },
+ {
+ "question":"35. How might a weathered mountain appear different than an unweathered mountain?",
+ "answers":["A.Weathered mountain would be rounder and less jagged.", "B.Weathered mountain would be taller.", "C.Weathered mountain would be more jagged and less rounded."]
+ },
+ {
+ "question":"37. A metal statue slowly turning green after years of being outside is an example.",
+ "answers":["A.mechanical weathering", "B.chemical weathering"]
+ },
+ {
+ "question":"38. Rocks along a riverbed that are smoothed from continuously moving water and sediment rubbing against them is an example of:",
+ "answers":["a.Mechanical weathering", "b.Chemical weathering"]
+ },
+ {
+ "question":"39. A piece of sandstone changing color (from brown to rusty red) from exposure to water and air is an example of:",
+ "answers":["A.mechanical weathering", "B.chemical weathering"]
+ },
+ {
+ "question":"40. The formation of large cracks in the face of a mountain from ice wedging is an example of:",
+ "answers":["A.mechanical weathering", "B.chemical weathering"]
+ }
+   ]
+ }
+ 
